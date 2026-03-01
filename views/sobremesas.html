@@ -5,6 +5,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Fazenda</title>
     <link rel="stylesheet" href="/style/styles.css">
+    <style>
+        /* Estilos básicos - Go Live Server */
+        html{
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial, Helvetica;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9e081;
+            /* background-image: url("../images/fundo.png"); */
+        }
+
+        table{
+            display: block;
+            margin-left: 3%;
+            width: 100%; /* ou um valor fixo, ex: 600px */
+            table-layout: fixed; /* Força larguras iguais */
+            border-collapse: collapse;
+            /* background-color: aqua; */
+        }
+
+        #table_menu{
+            display: block;
+            margin: auto;
+            /* margin-top: 10.5%; */
+            border-radius: 30px;
+            border: 1px solid rgb(255, 0, 0);
+            /* width: auto; */
+            width: 500px;
+        }
+
+        td{
+            width: 100px;
+            padding: auto;
+            /* border: 1px solid rgb(206, 206, 7); */
+        }
+
+        td:hover{
+            background-color: aquamarine;
+            border-radius: 20px;
+        }
+
+        nav{
+            display: block;
+            margin: auto;
+            /* border: 1px solid black; */
+            border-radius: 30px;
+            width: 900px;
+            text-align: center;
+            
+            /* height: 150px; */
+        }
+
+        #receitas{
+            display: block;
+            margin: auto;
+            width: 900px;
+            /* border: 1px solid black; */
+            /* border-radius: 20px; */
+        }
+
+        .icones{
+            width: 2px;
+            height: 2px;
+        }
+
+        .navbar {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: none; 
+        }
+
+        .navbar li {
+        float: left;
+        }
+
+        .navbar li a {
+        display: block;
+        color: rgb(85, 26, 26);
+        text-align: center;
+        font-weight: bold;
+        padding: 14px 20px;
+        text-decoration: none; 
+        }
+
+        /* Hover effect */
+        .navbar li a:hover {
+        background-color: #b1411a; 
+        border-radius: 20px;
+        color: white;
+        }
+
+        li{
+            text-align: left;
+        }
+
+        footer,h5{
+            color: white;
+            border-radius: 10px;
+            padding-left: 5px;
+            background-color: #b1411a;
+        }
+
+        #topo{
+            color:rgba(124, 76, 3, 0.781);
+            padding-left: 5px;
+            padding-right: 4px;
+            border-radius: 10px;
+            text-decoration: none;
+            /* border: 1px solid black; */
+        }
+
+        #topo:hover {
+            background-color:#b1411a;
+            color:beige;
+        }
+
+        .container {
+            display: flex; /* Habilita o Flexbox */
+            align-items: center; /* Alinha verticalmente ao centro */
+            gap: 20px; /* Espaçamento entre imagem e texto */
+        }
+        .imagem {
+            max-width: 400px; /* Define um tamanho para a imagem */
+            max-height: 327px;
+            height: auto; /* Mantém a proporção */
+            border-radius: 50px;
+        }
+    </style>
 </head>
 <body>
     <nav> 
